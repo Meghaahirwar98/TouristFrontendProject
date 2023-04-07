@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2012/04/24/12/46/letter-39873_960_720.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script type="text/javascript" src="loginPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">INDIA TOURISM</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to text">
+                <a href=""><button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>COME VISIT & FEEL<br><span class="color">PEACEFUL</span></h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>Exercitationem quae et animi quaerat possimus explicabo,
+                <br>eos similique? Explicabo, repellat voluptatum nobis vero veniam unde eligendi,
+                <br>quisquam tenetur eum qui iusto?
+            </p>
+            <button class="cn"><a href="#">JOIN US</a></button>
+        </div>
+        <div class="form">
+            <h3>LOGIN HERE</h3>
+            <form name="form" id="form" onsubmit="validateForm()">   
+                <div class="input-group">
+                <input type="text" id="username" name="username" title="Enter your username"
+                    placeholder="Enter your username">
+                    <span id="user-error"></span>
+                </div>
+
+                <div class="input-group">
+                <input type="password" id="password" name="password" title="Enter your password"
+                    placeholder="Enter your password">
+                    <span id="password-error"></span>
+                </div>
+
+                <input type="checkbox" style="width: 15px; box-shadow: none;" > <span class="p1">Remember
+                    me</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="forgetPassword.html">Forgot Password?</a>
+                <section>
+                <button type="submit" id="submit" class="btnn">LOGIN</button>
+                <a href="signupPage.html" target="_blank" class="btnthree" title="Click to Register"> signup here</a>
+             </section>
+            </form>
+            <p class="liw"> Log in with </p>
+
+            <div class="iconn">
+                <a href="https://www.facebook.com/login.php"><ion-icon name="logo-facebook"><img src="https://www.bing.com/th?id=OIP.Ux2AIO7El8dpiVUvF2DYFgHaHa&w=173&h=169&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></ion-icon></a>
+                <a href="https://www.instagram.com/?hl=en"><ion-icon name="logo-instagram"><img src="https://www.bing.com/th?id=OIP.-ZirgQE5pr8e7htQWowJIgHaHa&w=166&h=166&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></ion-icon></a>
+                <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"><img src="https://www.bing.com/th?id=OIP.t1fyvKgDnUoIiC049MG48AHaHa&w=173&h=169&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></ion-icon></a>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S151591769%3A1674507832990434&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHcVvTB3XQpmq_wSuuelcdSkwtQpj4J0VTG-3ebW_B_kdkJNTlmi1oSPnK4Rhu79w9Kori3Qug"><ion-icon name="logo-google"><img src="https://www.bing.com/th?id=OIP.D6P-BO32wCApcPIIjt6p5wHaHa&w=160&h=165&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP</title>
+    <link rel="stylesheet" href="signupPage.css">
+    <script type="text/javascript" src="signupPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2012/04/24/12/46/letter-39873_960_720.png">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>REGISTER HERE</h2>
+            <hr>
+            <form id="register" name="form" onsubmit="validationForm()">
+                <table>
+                    <tr>
+                        <td>
+                            <label>First Name: </label><br>
+                            <input type="text" class="name" name="fname" id="name"
+                                placeholder="Enter your first name.." required>
+                        </td>
+                        <td>
+                            <label>Last Name: </label><br>
+                            <input type="text" class="name" name="Lname" id="lname"
+                                placeholder="Enter your Last name..">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>User Name: </label><br>
+                            <input type="text" class="name" name="uname" id="username"
+                                placeholder="Enter your user name.." required>
+                        </td>
+                        <td>
+                            <label>Password: </label><br>
+                            <input type="password" class="name" name="Password" id="password"
+                                placeholder="Enter your password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Confirm Password: </label><br>
+                            <input type="password" class="name" name="CnfPassword" id="cnfPassword"
+                                placeholder="Enter confirm password" required>
+                        </td>
+                        <td>
+                            <label>Email: </label><br>
+                            <input type="email" class="name" name="email" id="email" placeholder="Enter your email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Date of birth: </label><br>
+                            <input type="date" class="name" name="date" id="dob" max="2023-01-24">
+                        </td>
+                        <td>
+                            <label>Mobile Number: </label><br>
+                            <input type="tel" class="name" title="Only numbers allowed" name="contact" id="contact" placeholder="Enter your phone number"
+                                maxlength="10" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Country: </label><br>
+                            <select name="country" id="country">
+                                <option value="India">India</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Nepal">Nepal</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="myfile">Upload your identity card:</label><br>
+                            <input type="file" id="myfile" name="myfile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Radio button with value -->
+                            <label>Gender: </label><br>
+                            <input type="radio" name="contact" value="email"> Male
+                            <input type="radio" name="contact" value="phone"> Female
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">&nbsp; I agree to the term of services
+                        </td>
+                    </tr>
+                </table>
+                
+                    <input type="submit" id="submit" value="SUBMIT" >&nbsp;&nbsp;&nbsp;
+                    <input type="reset" id="reset" value="RESET">
+                
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>© copyright astoriasolutions.com</div>
+    </footer>
+</body>
+
+</html>

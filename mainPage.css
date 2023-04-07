@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.menu{
+    margin-top: -35px;
+    margin-left: 550px;
+}
+
+footer {
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: -16px;
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+    text-align: center;
+    color: white;
+ }
+
+ body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+  
+    background-color: black;
+    color: white;
+  }
+
+  .darkImage{
+    margin-top: 15px;
+    margin-bottom: -10px;
+    width: 40px;
+    height: 40px;
+  }

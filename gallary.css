@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+  margin-left: 550px;
+}
+
+.video{
+justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+.image{
+    background-color: rgba(197, 47, 47, 0.8);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content:left;
+}
+
+.main{
+    align-items: center;
+    justify-content: center;
+}
+
+div.gallery {
+  margin-left: 70px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 140px;
+    margin-top: -100px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 80%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
